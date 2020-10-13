@@ -10,7 +10,6 @@ class Llama:
         self.walking = True
         self.date_added = date.today()
 
-mama = Llama("Mama Llama", "domestic llama")
 
 
 class Goat:
@@ -22,7 +21,6 @@ class Goat:
         self.walking = True
         self.date_added = date.today()
 
-billy = Goat("Billy", "domestic goat")
         
 class Donkey:
     def __init__(self, name, species):
@@ -33,7 +31,6 @@ class Donkey:
         self.walking = True
         self.date_added = date.today()
 
-waffles = Donkey("Waffles", "domestic donkey")
 
 class Pig:
     def __init__(self, name, species):
@@ -44,7 +41,6 @@ class Pig:
         self.walking = True
         self.date_added = date.today()
 
-chris = Pig("Chris P Bacon", "domestic pig")
 
 class Ox:
     def __init__(self, name, species):
@@ -54,5 +50,3 @@ class Ox:
         self.species = species
         self.walking = True
         self.date_added = date.today()
-
-para = Ox("Para 'D' Ox", "domestic ox")
