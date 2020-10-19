@@ -1,1 +1,0 @@
-from .animals import Ratsnake, Copperhead, Python, Kingsnake, Rattlesnake
