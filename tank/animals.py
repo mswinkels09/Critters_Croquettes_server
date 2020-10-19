@@ -2,56 +2,64 @@
 from datetime import date
 
 class Ratsnake:
-    def __init__(self, name, species):
+    def __init__(self, chip_number, name, species):
         # Establish the properties of each animal
         # with a default value
+        self.chip_number = chip_number
         self.name = name
         self.species = species
         self.slithering = True
         self.date_added = date.today()
     
-cheese = Ratsnake("Cheese", "domestic ratsnake")
+    def __str__(self):
+        return f"{self.name} is a {self.species}"
         
 class Copperhead:
-    def __init__(self, name, species):
+    def __init__(self, chip_number, name, species):
         # Establish the properties of each animal
         # with a default value
+        self.chip_number = chip_number
         self.name = name
         self.species = species
         self.slithering = True
         self.date_added = date.today()
 
-bronze = Copperhead("Bronze", "domestic copperhead")
+    def __str__(self):
+        return f"{self.name} is a {self.species}"
 
 class Python:
-    def __init__(self, name, species):
+    def __init__(self, chip_number, name, species):
         # Establish the properties of each animal
         # with a default value
+        self.chip_number = chip_number
         self.name = name
         self.species = species
         self.slithering = True
         self.date_added = date.today()
 
-monty = Python("Monty", "domestic python")
+    def __str__(self):
+        return f"{self.name} is a {self.species}"
 
 class Rattlesnake:
-    def __init__(self, name, species):
+    def __init__(self, chip_number, name, species):
         # Establish the properties of each animal
         # with a default value
+        self.chip_number = chip_number
         self.name = name
         self.species = species
         self.slithering = True
         self.date_added = date.today()
 
-shake = Rattlesnake("Shake", "domestic rattlesnake")
+    def __str__(self):
+        return f"{self.name} is a {self.species}"
 
 class Kingsnake:
-    def __init__(self, name, species):
+    def __init__(self, chip_number, name, species):
         # Establish the properties of each animal
         # with a default value
+        self.chip_number = chip_number
         self.name = name
         self.species = species
         self.slithering = True
         self.date_added = date.today()
 
-louis = Kingsnake("King Louis", "domestic kingsnake")
